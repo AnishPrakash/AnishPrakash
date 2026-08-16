@@ -54,5 +54,5 @@ Blockchain   Solidity · Foundry · Web3.py · Dune Analytics · Alchemy
 ---
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=AnishPrakash&show_icons=true&hide_border=true&theme=default" />
+  <img src="https://streak-stats.demolab.com?user=AnishPrakash&hide_border=true&theme=default" />
 </p>
