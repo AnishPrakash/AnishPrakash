@@ -54,5 +54,9 @@ Blockchain   Solidity · Foundry · Web3.py · Dune Analytics · Alchemy
 ---
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=AnishPrakash&hide_border=true&theme=default" />
+  <img src="https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white" />
+  <img src="https://img.shields.io/badge/C++20-00599C?style=flat&logo=cplusplus&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Solidity-363636?style=flat&logo=solidity&logoColor=white" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white" />
 </p>
