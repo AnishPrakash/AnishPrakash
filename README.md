@@ -22,7 +22,7 @@ I write production-grade systems — not tutorials, not homework. Everything pin
 - **[OSmosis](https://github.com/AnishPrakash/osmosis)** — Linux kernel behavioral fingerprinting via eBPF. Isolation Forest anomaly detection, zero kernel modification.
 - **[Redrob Ranker](https://huggingface.co/spaces/anishprakash/redrob_ranker)** — Ranked 100K candidate profiles in <2min CPU. XGBoost LambdaMART + FAISS + BM25 + adversarial defenses.
 - **[qoi-rust](https://github.com/AnishPrakash/qoi-rust)** — Zero-unsafe Rust port of the QOI image format. 27.9M-iteration fuzz run, zero panics.
-- - **[ARGUS](https://github.com/AnishPrakash/argus)** — Real-time road surveillance system. 4-stage CV pipeline: YOLOv8l base detection (mAP50 80%+) → YOLOv8m emergency vehicle classifier (mAP50 0.85) → EfficientNetB0 helmet violation detector → EfficientNetB0
+- **[ARGUS](https://github.com/AnishPrakash/argus)** — Real-time road surveillance system. 4-stage CV pipeline: YOLOv8l base detection (mAP50 80%+) → YOLOv8m emergency vehicle classifier (mAP50 0.85) → EfficientNetB0 helmet violation detector → EfficientNetB0
   make/model classifier (196 classes). Selective model execution per-frame via frontend
   toggles. Live WebSocket dashboard via Supabase Realtime. FastAPI backend · Next.js ·
   Deployed on Railway + Vercel.
