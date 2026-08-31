@@ -26,22 +26,6 @@ I write production-grade systems — not tutorials, not homework. Everything pin
 - **[qoi-rust](https://github.com/AnishPrakash/qoi-rust)** — Zero-unsafe Rust port of the QOI image format. 27.9M-iteration fuzz run, zero panics.
 - **[ARGUS](https://github.com/AnishPrakash/argus)** — Real-time road surveillance system. 4-stage CV pipeline: YOLOv8l base detection (mAP50 80%+) → YOLOv8m emergency vehicle classifier (mAP50 0.85) → EfficientNetB0 helmet violation detector → EfficientNetB0 make/model classifier (196 classes). Selective model execution per-frame via frontend toggles. Live WebSocket dashboard via Supabase Realtime. FastAPI backend · Next.js · Deployed on Railway + Vercel.
 
-Active inventor — patent filed via VIT Chennai IP Strategy Office. Medical domain research manuscript in preparation.
-
----
-
-### Year 2 — What I'm working toward
-
-Three parallel tracks, August 2026 → May 2027.
-
-**Neural Networks** — Backprop in NumPy from scratch → PyTorch CNNs and LSTMs → Transformer encoder → convergence projects: Transformer signal classifier, RL portfolio agent, regime detector.
-
-**Quantitative Finance** — Efficient frontier, Black-Scholes with Greeks, VaR/CVaR risk dashboards, momentum and pairs trading backtests, Monte Carlo simulation → merging with ML in early 2027.
-
-**Blockchain** — Ethereum internals (cryptography, Merkle trees, consensus math) → Solidity smart contracts tested with Foundry → Web3.py on-chain data pipelines (Uniswap, Aave, perpetuals) → on-chain alpha signals and DeFi analytics.
-
-**Convergence target (May 2027):** Project Delta — an LSTM trained on live Uniswap and Aave event data to predict crypto market direction, combining all three tracks into one artifact.
-
 ---
 
 ### Stack
@@ -52,7 +36,6 @@ AI / ML      RAG · FAISS/HNSW · XGBoost LambdaMART · Isolation Forest · LLM 
 Systems      eBPF · AVX2 SIMD · NUMA threading · cgroups v2 · seccomp · gRPC · CMake · Embedded / RPi / Arduino
 Infra        Docker · Redis Streams · PostgreSQL · GCP · Railway · Vercel
 Web          Next.js · React · Supabase · Axum · n8n
-Blockchain   Solidity · Foundry · Web3.py · Dune Analytics · Alchemy
 ```
 
 ---
@@ -62,6 +45,5 @@ Blockchain   Solidity · Foundry · Web3.py · Dune Analytics · Alchemy
   <img src="https://img.shields.io/badge/C++20-00599C?style=flat&logo=cplusplus&logoColor=white" />
   <img src="https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Solidity-363636?style=flat&logo=solidity&logoColor=white" />
   <img src="https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white" />
 </p>
