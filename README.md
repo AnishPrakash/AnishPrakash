@@ -25,6 +25,7 @@ I write production-grade systems — not tutorials, not homework. Everything pin
 - **[Redrob Ranker](https://huggingface.co/spaces/anishprakash/redrob_ranker)** — Ranked 100K candidate profiles in <2min CPU. XGBoost LambdaMART + FAISS + BM25 + adversarial defenses.
 - **[qoi-rust](https://github.com/AnishPrakash/qoi-rust)** — Zero-unsafe Rust port of the QOI image format. 27.9M-iteration fuzz run, zero panics.
 - **[ARGUS](https://github.com/AnishPrakash/argus)** — Real-time road surveillance system. 4-stage CV pipeline: YOLOv8l base detection (mAP50 80%+) → YOLOv8m emergency vehicle classifier (mAP50 0.85) → EfficientNetB0 helmet violation detector → EfficientNetB0 make/model classifier (196 classes). Selective model execution per-frame via frontend toggles. Live WebSocket dashboard via Supabase Realtime. FastAPI backend · Next.js · Deployed on Railway + Vercel.
+- **[CodeSentinel](https://github.com/AnishPrakash/codesentinel)** — Local-first SAST scanner and VS Code extension with an educational remediation gate. Deterministic structural AST matching via tree-sitter (Python, JS, Java) mapped directly to CWE, OWASP, and NIST controls. Zero-hallucination architecture: strictly separates hard AST facts from an opt-in ML triage model (0.772 macro F1 on OWASP Benchmark). Refuses to auto-fix vulnerabilities until the developer answers a comprehension question; tracks learning progress in a local, source-code-free SQLite ledger. <5ms median scan latency per file · staged-only git pre-commit hook · zero network calls.
 
 ---
 
