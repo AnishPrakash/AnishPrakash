@@ -2,7 +2,8 @@
 
 <p align="center">
   B.Tech CSE (AI & ML) · VIT Chennai · CGPA 9.2/10<br/>
-  Systems programmer · Applied ML · Low-latency infrastructure
+  Systems programmer · Applied ML · Low-latency infrastructure<br/>
+  Cloud & DevOps Team · GDG on Campus VIT Chennai (2026–27)
 </p>
 
 <p align="center">
@@ -18,7 +19,7 @@ I write production-grade systems — not tutorials, not homework. Everything pin
 
 - **[VecDB](https://github.com/AnishPrakash/vecdb)** — Custom vector database in Rust. HNSW index, WAL, SQ8 quantization. >95% Recall@10, <1ms P99 on SIFT1M.
 - **[LOB Engine](https://github.com/AnishPrakash/lob-engine)** — HFT matching engine in C++20. 27M orders/sec · 42ns P50 · AVX2 SIMD · zero heap allocation on hot path.
-- **[Arena](https://github.com/AnishPrakash/arena)** — Deterministic remote code execution judge in Go. Control plane split from execution plane over Redis Streams; ephemeral Docker sandboxes (no network, read-only rootfs, cgroups v2, seccomp, dropped caps). 27.4ms P95 submission latency under a 7,371-job backlog · 9.03% timing CV on pinned cores · zero 5xx and 13,950 correct 429s under burst · ~$0.45 spot compute for a 500-participant 3-hour contest. 18-fixture golden verdict suite in CI.
+- **[Arena](https://github.com/AnishPrakash/arena)** — Deterministic remote code execution judge in Go, built for the GDG on Campus VIT Chennai Cloud & DevOps selection round. Control plane split from execution plane over Redis Streams; ephemeral Docker sandboxes (no network, read-only rootfs, cgroups v2, seccomp, dropped caps). 27.4ms P95 submission latency under a 7,371-job backlog · 9.03% timing CV on pinned cores · zero 5xx and 13,950 correct 429s under burst · ~$0.45 spot compute for a 500-participant 3-hour contest. 18-fixture golden verdict suite in CI.
 - **[Specter](https://github.com/AnishPrakash/specter)** ★ — AI supply chain attack intelligence platform. Won MicroCraft VibeAthon 6.0. 5 parallel scanners, 3D threat map, real-time alerts.
 - **[stranger](https://github.com/AnishPrakash/stranger)** — Offline supply-chain auditor for lockfiles, in Rust with **zero dependencies** — stdlib only, empty manifest. One 4,357-line file: hand-written RFC 8259 JSON parser, Cargo.lock TOML reader, PEP 508 reader, bounded Damerau-Levenshtein with confusable-glyph folding, npm node-resolution graph engine, ANSI renderer. 9 offline risk rules (install scripts, typosquatting, off-registry sources, integrity mismatch) · `audit` / `diff` / `why` · reproducible builds on Linux + Windows · 58 stdlib-harness tests. Zero Dependency Hackathon 2026, Track A.
 - **[OSmosis](https://github.com/AnishPrakash/osmosis)** — Linux kernel behavioral fingerprinting via eBPF. Isolation Forest anomaly detection, zero kernel modification.
@@ -26,6 +27,12 @@ I write production-grade systems — not tutorials, not homework. Everything pin
 - **[qoi-rust](https://github.com/AnishPrakash/qoi-rust)** — Zero-unsafe Rust port of the QOI image format. 27.9M-iteration fuzz run, zero panics.
 - **[ARGUS](https://github.com/AnishPrakash/argus)** — Real-time road surveillance system. 4-stage CV pipeline: YOLOv8l base detection (mAP50 80%+) → YOLOv8m emergency vehicle classifier (mAP50 0.85) → EfficientNetB0 helmet violation detector → EfficientNetB0 make/model classifier (196 classes). Selective model execution per-frame via frontend toggles. Live WebSocket dashboard via Supabase Realtime. FastAPI backend · Next.js · Deployed on Railway + Vercel.
 - **[CodeSentinel](https://github.com/AnishPrakash/codesentinel)** — Local-first SAST scanner and VS Code extension with an educational remediation gate. Deterministic structural AST matching via tree-sitter (Python, JS, Java) mapped directly to CWE, OWASP, and NIST controls. Zero-hallucination architecture: strictly separates hard AST facts from an opt-in ML triage model (0.772 macro F1 on OWASP Benchmark). Refuses to auto-fix vulnerabilities until the developer answers a comprehension question; tracks learning progress in a local, source-code-free SQLite ledger. <5ms median scan latency per file · staged-only git pre-commit hook · zero network calls.
+
+---
+
+### Community
+
+- **GDG on Campus VIT Chennai** — Member, Cloud & DevOps Team · 2026–27
 
 ---
 
